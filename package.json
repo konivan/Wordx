@@ -1,0 +1,17 @@
+{
+  "name": "docx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docx": "^8.5.0",
+    "electron": "^28.2.1",
+    "electron-reloader": "^1.2.3"
+  }
+}

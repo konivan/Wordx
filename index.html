@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>For you</title>
+</head>
+<body>
+    <section class="mainContainer">
+        <div>
+            <div class="inputsContainer">
+                <div class="inputWrapper">
+                    <label>Слово</label>
+                    <input id="word" type="text" placeholder="Слово"/>
+                </div>
+                <div class="inputWrapper">
+                    <label>Транскрипция</label>
+                    <input id="word" type="text" placeholder="Транскрипция"/>
+                </div>
+                <div class="inputWrapper">
+                    <label>Перевод</label>
+                    <input id="word" type="text" placeholder="Перевод"/>
+                </div>
+                <span style="font-weight: 600;">Количество слово: <span style="font-weight: 600" id="wordsCount"> 0</span></span>
+                <button id="createRowBtn">Добавить слово</button>
+            </div>
+            <div class="textareasContainer">
+                <div class="inputWrapper">
+                    <label>Описание</label>
+                    <textarea id="word" type="text" placeholder="Введите описание"></textarea>
+                </div>
+                <div class="inputWrapper">
+                    <label>Пример</label>
+                    <textarea id="word" type="text" placeholder="Введите пример"></textarea>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="createBtn">Создать документ</button>
+        </div>
+    </section>
+    <script src="./renderer.js"></script>
+</body>
+</html>
